@@ -1,0 +1,74 @@
+.pageContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	/* background-image: url("/Images/loginBg.jpg"); */
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.loginTitle {
+	text-align: center;
+	text-decoration: underline;
+	color: #007bff;
+}
+.imageContainer {
+	flex-basis: 50%;
+	height: 100vh;
+}
+.imageContainer img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.loginContainer {
+	flex-basis: 50%;
+	background-color: #f0f0f0; /* Light gray background */
+	padding: 40px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.loginForm {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-top: 20px;
+	width: 60%;
+	border: 1px solid #bfbfbf; /* Light gray border */
+	padding: 50px 20px;
+	background-color: #ffffff; /* White background */
+	border-radius: 15px;
+}
+
+label {
+	font-weight: bold;
+}
+
+.inputField {
+	padding: 12px;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+.submitBtn {
+	margin-top: 10px;
+	padding: 14px;
+	font-size: 16px;
+	border-radius: 6px;
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	border: 1px solid blanchedalmond;
+	width: 100%;
+}
+
+.submitBtn:hover {
+	background-color: #0056b3;
+}
